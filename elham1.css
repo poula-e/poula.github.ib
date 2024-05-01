@@ -1,0 +1,377 @@
+*{
+    margin: 0px;
+    /* padding: 0px; */
+    
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family:sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  }
+  body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  }
+  ul {
+    list-style: none;
+    background: black;
+    text-align: center;
+    margin-top: -20px;
+    }
+    ul li {
+    display: inline-block;
+    position: relative;
+    }
+    ul li a {
+    display: block;
+    padding: 25px 30px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    }
+    ul li a:hover{
+      text-decoration: underline goldenrod 2px;
+    }
+   .logo{
+    float: left;
+    margin-top: 12px;
+    color: goldenrod;
+
+   }
+   footer {
+    background-color: black;
+    color: #DDA15E;
+    text-align: center;
+    padding: 15px 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 250px;
+    margin-top: 200px;
+  }
+  i{
+    transition: transform 0.3s;
+  }
+  
+  i:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+  }
+  
+  
+  /* Theme 1 mode styles */
+  :root {
+    background-image: url(WhatsApp\ Image\ 2024-04-25\ at\ 5.36.46\ PM.jpeg);
+    --text-color: #333;
+    --icon-color: #333;
+    
+  }
+  
+  
+  
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .toggle-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icon {
+    font-size: 30px;
+    color: var(--icon-color);
+    margin: 0 10px;
+  }
+  
+  .toggle-label {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .toggle {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .toggle-switch {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+  }
+  
+  .toggle-switch:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+  }
+  
+  .toggle:checked + .toggle-switch {
+    background-color: #007bff;
+  }
+  
+  .toggle:checked + .toggle-switch:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+.home{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(1pyramids-1551361995.jpg);
+    background-size: 100% 100%;
+    height: 100vb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home h1{
+    color: rgb(182, 157, 119);
+    font-size: 80px;
+    font-weight: bold;
+    text-shadow: 5px 5px black;
+
+
+}
+/* --------------------------------------------- */
+.ramses{
+    position: relative;
+    height: 120vb;
+    background-image:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(WhatsApp\ Image\ 2024-04-27\ at\ 14.30.34_01597b42.jpg);
+    background-size: 100% 100%;
+}
+.ramses-left{
+    width: 55%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.6)) ,url(1pyramids-1551361995.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0px;
+    bottom: 50px;
+    opacity: 0.8;
+
+}
+.ramses-left img{
+    width: 60%;
+    margin: 100px 0px;
+
+}
+.ramses-right{
+    width: 55%;
+    background-size: 100% 100%;
+    overflow: auto;
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    z-index: 1;
+    /* opacity: 0.8; */
+}
+.ramses-right-content{
+    margin: 50px 0px;
+    color: rgb(240, 210, 165);
+    padding: 50px;
+}
+.ramses-right-content h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.ramses-right-content h2{
+    margin-bottom: 10px;
+}
+.ramses-right-content p{
+    font-size: 20px;
+}
+
+
+.background-img1{
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(ramses-ii-temple.jpg);
+}
+.background-img2{
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(whtxeu030s.jpg);
+}
+
+.background-img3{
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(images.jpeg);
+}
+
+.background-img4{
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(8526185878_111797f702_b.jpg);
+}
+.background-img5{
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(hatshepsut-statue_2x1.avif);
+}
+.background-img6{
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(scarab-Egypt.jpg);
+}
+
+.next-btn{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+#next-btn{
+    color:rgb(244, 236, 222);
+    background-color:rgb(132, 72, 19) ;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight:bold;
+    padding: 12px 50px;
+    letter-spacing: 7.5px;
+    border-radius: 20px;
+    transition: 0.6s ease;
+}
+#next-btn:hover{
+    scale: 1.1;
+    background-color:rgb(74, 47, 8);
+}
+.lfooter{
+  padding: 40px;
+  color: #DDA15E;
+ }
+.row{
+  margin-top: 30px;
+}
+.row a:hover{
+  text-decoration: underline white 2px;
+  transition: 0.7;
+}
+.sidebar {
+  position: fixed;
+  left: -250px;
+  top: 0;
+  bottom: 0;
+  width: 250px;
+  background-color: #333;
+  transition: left 0.3s ease-in-out;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 20px;
+}
+
+.menu li {
+  margin-bottom: 10px;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.toggle-menu {
+  position: absolute;
+  left: 0;
+  top: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.toggle-menu span {
+  display: block;
+  width: 30px;
+  height: 5px;
+  background-color: #fff;
+  margin-bottom: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.toggle-menu.active span:nth-child(1) {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle-menu.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.toggle-menu.active span:nth-child(3) {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#menus {
+  transition: 0.6s;
+}
+
+.sidemenu{
+  position: fixed;
+  top:0px;
+  left: 0px;
+  height: 100%;
+  width: 0px;
+  background-color: black;
+  z-index: 1;
+  padding-top: 100px;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.sidemenu a {
+  padding: 8px;
+  font-size: 30px;
+  color: goldenrod;
+  display: block;
+  margin-top:20px ;
+}
+.sidemenu a:hover{
+  transition: 0.2s;
+  color: white;
+}
+
+/*  
+www.youtube.com/c/pythonlife
+www.youtube.com/c/riadhcoding
+www.youtube.com/c/pythonblack 
+*/
+.sidemenu .closebtn{
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 50px;
+  margin-left: 32px;
+}
+#mainbox{
+  width: 35px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 8px;
+  color: #fff;
+  font-size: 40px;
+  padding: 4px; 
+}
+#active {
+  color: white;
+  background-color: black;
+}
